@@ -1,0 +1,22 @@
+{
+  "main": "card-form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottjustin5000/react-native-credit-card-form.git"
+  },
+  "keywords": [
+    "react-native",
+    "credit card form",
+    "component"
+  ],
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "dependencies": {
+    "react-native-svg":"12.1.0",
+    "react-native-linear-gradient":"2.5.6"
+  }
+}
