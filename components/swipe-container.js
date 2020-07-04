@@ -30,10 +30,10 @@ const SwipeContainer = (props)=> {
       }
     })
 
-    return (
-      <Animated.View {...panResponder.panHandlers} style={props.gestureStyle}>
-        <View>{props.children}</View>
-      </Animated.View>
-    )
-  }
+return (
+    <Animated.View {...panResponder.panHandlers} style={props.gestureStyle}>
+       <View>{props.children}</View>
+    </Animated.View>
+  )
+}
 export default SwipeContainer
